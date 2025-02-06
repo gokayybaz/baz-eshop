@@ -1,7 +1,7 @@
 import React from 'react'
 import { IoMdClose } from 'react-icons/io'
 
-function HeaderCloseButton() {
+const HeaderCloseButton = () => {
   const closeButtonStyle = {
     iconSize: 26,
     buttonStyle: "cursor-pointer"

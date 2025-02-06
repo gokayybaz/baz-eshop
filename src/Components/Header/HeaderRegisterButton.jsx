@@ -1,6 +1,6 @@
 import React from 'react'
 
-function HeaderRegisterButton({title}) {
+const HeaderRegisterButton = ({title}) => {
   const registerButtonStyle = {
     buttonStyle: "ml-4 mb-1 underline underline-offset-8 cursor-pointer"
   }  

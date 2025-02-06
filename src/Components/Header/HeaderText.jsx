@@ -1,6 +1,6 @@
 import React from 'react'
 
-function HeaderText({text}) {
+const HeaderText = ({text}) => {
   return (
     <p>{text}</p>
   )
