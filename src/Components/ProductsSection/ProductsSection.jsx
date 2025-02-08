@@ -1,5 +1,5 @@
 import React from 'react'
-import ProductCard from '../ProductCard.jsx/ProductCard'
+import ProductCard from '../ProductCard/ProductCard'
 import ProductSectionViewAllButton from './ProductSectionViewAllButton'
 import ProductSectionBottomLine from './ProductSectionBottomLine'
 

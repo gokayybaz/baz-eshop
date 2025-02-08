@@ -1,8 +1,8 @@
 import React from 'react'
 
 import Clothes1 from '../../assets/clothes-1.svg'
-import ReactStars from 'react-stars';
 import { useState } from 'react';
+import ReactStars from 'react-stars';
 
 function ProductCard({ title, starValue, price, newPrice }) {
     const [ratingChanged, setRatingChanged] = useState(starValue)

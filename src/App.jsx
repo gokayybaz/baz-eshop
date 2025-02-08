@@ -9,6 +9,8 @@ import BrandSection from './Components/BrandSection/BrandSection';
 import { useState } from 'react';
 import ProductsSection from './Components/ProductsSection/ProductsSection';
 
+import BrowseSection from './Components/BrowseSection/BrowseSection';
+
 
 
 
@@ -16,13 +18,14 @@ function App() {
 
 
   return (
-    <div className=''>
+    <div>
       <Header />
       <Navbar />
       <HeroSection />
       <BrandSection />
       <ProductsSection title={'YENİ ÜRÜNLER'} />
       <ProductsSection title={'EN ÇOK SATILANLAR'} />
+      <BrowseSection />
     </div>
   )
 }
