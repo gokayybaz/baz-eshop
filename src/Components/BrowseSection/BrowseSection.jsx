@@ -11,6 +11,7 @@ import BrowseSectionTitle from './BrowseSectionTitle'
 import BrowseSectionSmallCard from './BrowseSectionSmallCard'
 import BrowseSectionWideCard from './BrowseSectionWideCard'
 
+// ? Bu component kullanıcının kendi kıyafet tarzını seçmesine yardımcı olacak component'dir.
 const BrowseSection = () => {
   return (
     <div className='mx-56 flex flex-col items-center p-20 rounded-2xl bg-[#f2f0f1]'>

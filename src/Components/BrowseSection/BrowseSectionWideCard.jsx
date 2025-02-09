@@ -1,5 +1,7 @@
 import React from 'react'
 
+// ? Bu component kullanıcının kıyafet tarzlarının grid şeklinde listelendiği component'lerden, genişliği çok olan component'dir.
+// ? Dışarıdan props olarak başlık metnini ve render edeceği resmi istemektedir.
 const BrowseSectionWideCard = ({ title, image }) => {
     return (
         <div className='flex items-start relative justify-between bg-white h-56 rounded-xl col-span-3'>
