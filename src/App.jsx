@@ -6,7 +6,8 @@ import BrandSection from './Components/BrandSection/BrandSection';
 import ProductsSection from './Components/ProductsSection/ProductsSection';
 import BrowseSection from './Components/BrowseSection/BrowseSection';
 import CustomerCommentSection from './Components/CustomerCommentSection/CustomerCommentSection';
-import EmailSection from './Components/EmailSection/EmailSection';
+import Footer from './Components/Footer/Footer';
+
 
 const App = () => {
   return (
@@ -19,7 +20,7 @@ const App = () => {
       <ProductsSection title={'EN ÇOK SATILANLAR'} />
       <BrowseSection />
       <CustomerCommentSection />
-      <EmailSection />
+      <Footer />
     </div>
   )
 }
