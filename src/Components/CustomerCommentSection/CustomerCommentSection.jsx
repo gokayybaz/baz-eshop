@@ -7,7 +7,7 @@ import CustomerCommentSectionIconButtons from './CustomerCommentSectionIconButto
 
 function CustomerCommentSection() {
     return (
-        <div className='px-56 my-24 w-full'>
+        <div className='px-56 my-24 mb-12 w-full'>
             <div className='flex items-center justify-between'>
                 <CustomerCommentSectionTitle title={'MÜŞTERİ YORUMLARI'} />
                 <CustomerCommentSectionIconButtons />
