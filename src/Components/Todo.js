@@ -3,8 +3,8 @@
 // ? Yapılacaklar
 
 // ? React Router DOM eklenecek. [Tamamlandı]
-// ? Pages klasörü oluşturulacak sayfalar ayrılacak ve component'ler de sayfa sayfa ayrılacak.
-// ? Diğer sayfaların design işlemlerine başlanacak.
+// ? Pages klasörü oluşturulacak sayfalar ayrılacak. [Tamamlandı]
+// ? Diğer sayfaların design işlemlerine başlanacak. [Devam Ediyor]
 // ? Mobil ve responsive tasarıma geçilecek.
 // ? State management eklenecek.
 

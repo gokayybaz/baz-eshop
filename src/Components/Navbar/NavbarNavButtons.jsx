@@ -7,8 +7,8 @@ const NavbarNavButtons = () => {
            <NavbarNavButton title={"Erkek"}/>
            <NavbarNavButton title={"Kadın"}/>
            <NavbarNavButton title={"Çocuk"}/>
-           <NavbarNavButton title={"Yeni Sezon"}/>
-           <NavbarNavButton title={"Günün Ürünleri"}/>
+           <NavbarNavButton title={"Yeni Ürünler"}/>
+           <NavbarNavButton title={"Günün İndirimleri"}/>
         </ul>
     )
 }
