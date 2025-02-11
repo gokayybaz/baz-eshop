@@ -1,26 +1,28 @@
 import './App.css'
 import Header from './Components/Header/Header';
 import Navbar from './Components/Navbar/Navbar';
-import HeroSection from './Components/HeroSection/HeroSection';
-import BrandSection from './Components/BrandSection/BrandSection';
-import ProductsSection from './Components/ProductsSection/ProductsSection';
-import BrowseSection from './Components/BrowseSection/BrowseSection';
-import CustomerCommentSection from './Components/CustomerCommentSection/CustomerCommentSection';
 import Footer from './Components/Footer/Footer';
+
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import HomePage from './Pages/HomePage';
+import ProductDetailPage from './Pages/ProductDetailPage';
+
 
 
 const App = () => {
   return (
     <div>
+      <BrowserRouter>
       <Header />
       <Navbar />
-      <HeroSection />
-      <BrandSection />
-      <ProductsSection title={'YENİ ÜRÜNLER'} />
-      <ProductsSection title={'EN ÇOK SATILANLAR'} />
-      <BrowseSection />
-      <CustomerCommentSection />
+      <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path='/products/product' element={<ProductDetailPage />}/>
+        </Routes>
       <Footer />
+        
+      </BrowserRouter>
+      
     </div>
   )
 }

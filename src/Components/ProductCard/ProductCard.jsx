@@ -3,12 +3,13 @@ import React from 'react'
 import Clothes1 from '../../assets/clothes-1.svg'
 import { useState } from 'react';
 import ReactStars from 'react-stars';
+import { Link } from 'react-router-dom'
 
 function ProductCard({ title, starValue, price, newPrice }) {
     const [ratingChanged, setRatingChanged] = useState(starValue)
 
     return (
-        <div className=''>
+        <Link to={"/products/product"} className=''>
             <img src={Clothes1} alt="" />
             <div className='ml-4'>
                 <p className='mt-4 text-lg font-semibold '>{title}</p>
@@ -27,7 +28,7 @@ function ProductCard({ title, starValue, price, newPrice }) {
                 </span>
             </div>
 
-        </div>
+        </Link>
     )
 }
 

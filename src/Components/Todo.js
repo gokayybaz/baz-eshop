@@ -2,7 +2,7 @@
 
 // ? Yapılacaklar
 
-// ? React Router DOM eklenecek.
+// ? React Router DOM eklenecek. [Tamamlandı]
 // ? Pages klasörü oluşturulacak sayfalar ayrılacak ve component'ler de sayfa sayfa ayrılacak.
 // ? Diğer sayfaların design işlemlerine başlanacak.
 // ? Mobil ve responsive tasarıma geçilecek.
