@@ -10,4 +10,6 @@ The application features:
 * This project not only showcases the power of ReactJS in building dynamic and interactive user interfaces but also implements best practices in modern web development. Whether you are a fashion enthusiast or a developer looking to explore e-commerce solutions, Baz E Shop 
   is designed to impress and serve your needs.
 
+Project Live Demo Link: <a href="https://baz-e-shop.netlify.app/">Baz E Shop</a>
+
 Happy coding and happy shopping!
