@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 import ReactStars from 'react-stars';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
-import ProductDetailsTable from '@/components/ProductDetailsTable';
+import ProductDetailsTable from '@/Components/ProductDetailsTable';
 import CustomerCommentCard from '@/Components/CustomerCommentSection/CustomerCommentCard';
 import Accordion from '@/Components/Accordion';
 import ProductCard from '@/Components/ProductCard/ProductCard';
