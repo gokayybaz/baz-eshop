@@ -3,12 +3,16 @@ import BrowseSection from '@/Components/BrowseSection/BrowseSection'
 import CustomerCommentSection from '@/Components/CustomerCommentSection/CustomerCommentSection'
 import HeroSection from '@/Components/HeroSection/HeroSection'
 import ProductsSection from '@/Components/ProductsSection/ProductsSection'
-import React from 'react'
+import React, { useEffect } from 'react'
 
 function HomePage() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div>
-        <HeroSection />
+      <HeroSection />
       <BrandSection />
       <ProductsSection title={'YENİ ÜRÜNLER'} />
       <ProductsSection title={'EN ÇOK SATILANLAR'} />

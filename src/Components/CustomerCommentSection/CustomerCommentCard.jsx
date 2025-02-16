@@ -8,7 +8,7 @@ function CustomerCommentCard({ starCount, title, comment, isVerified }) {
     const [ratingChanged, setRatingChanged] = useState(starCount)
 
     return (
-        <div className='w-96 mr-4 my-12 border border-gray-200 rounded-xl p-5'>
+        <div className='w-96 mr-4  border border-gray-200 rounded-xl p-5'>
             <CustomerCommentCardStars starValue={ratingChanged} />
             <CustomerCommentCardTitle title={title} isVerified={isVerified} />
             <CustomerCommentCardContent content={comment} />
