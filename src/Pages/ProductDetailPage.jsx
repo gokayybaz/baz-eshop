@@ -7,7 +7,7 @@ import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import ProductDetailsTable from '@/components/ProductDetailsTable';
 import CustomerCommentCard from '@/Components/CustomerCommentSection/CustomerCommentCard';
-import Accordion from '../components/Accordion';
+import Accordion from '@/Components/Accordion';
 import ProductCard from '@/Components/ProductCard/ProductCard';
 
 function ProductDetailPage() {

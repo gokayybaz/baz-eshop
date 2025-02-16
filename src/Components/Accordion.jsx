@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
-import { FaChevronDown, FaChevronUp } from 'react-icons/fa';
 
-const Accordion = ({ title, children }) => {
+function Accordion({ title, children }) {
     const [isOpen, setIsOpen] = useState(false);
 
     const toggleAccordion = () => {
@@ -9,18 +8,13 @@ const Accordion = ({ title, children }) => {
     };
 
     return (
-        <div className=' border border-gray-200 rounded-lg shadow-sm mb-4'>
-            <button className='w-full cursor-pointer flex justify-between items-center text-left font-semibold text-gray-600 px-6 py-4 bg-gray-100 rounded-t-lg' onClick={toggleAccordion}>
-                {title}
-                {isOpen ? <FaChevronUp /> : <FaChevronDown />}
+        <div className='border-b border-gray-300'>
+            <button className='w-full text-left py-4' onClick={toggleAccordion}>
+                <h3 className='text-lg font-semibold'>{title}</h3>
             </button>
-            {isOpen && (
-                <div className='px-6 py-4 text-gray-600'>
-                    {children}
-                </div>
-            )}
+            {isOpen && <div className='py-4'>{children}</div>}
         </div>
     );
-};
+}
 
 export default Accordion;
